@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.645 78.921">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-1 {
+        stroke: #707070;
+        stroke-width: 2px;
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_2" data-name="Group 2" transform="translate(-2192.5 -1925.343)">
+    <g id="Ellipse_5" data-name="Ellipse 5" class="cls-1" transform="translate(2204.03 1938.382)">
+      <circle class="cls-2" cx="25.786" cy="25.786" r="25.786"/>
+      <circle class="cls-3" cx="25.786" cy="25.786" r="24.786"/>
+    </g>
+    <g id="Ellipse_6" data-name="Ellipse 6" class="cls-1" transform="translate(2213.674 1948.026)">
+      <circle class="cls-2" cx="16.1" cy="16.1" r="16.1"/>
+      <circle class="cls-3" cx="16.1" cy="16.1" r="15.1"/>
+    </g>
+    <line id="Line_5" data-name="Line 5" class="cls-1" y2="28.092" transform="translate(2229.816 1925.343)"/>
+    <line id="Line_6" data-name="Line 6" class="cls-1" x1="0.335" y2="27.505" transform="translate(2229.481 1976.747)"/>
+    <line id="Line_7" data-name="Line 7" class="cls-1" x2="31.279" transform="translate(2192.5 1964.168)"/>
+    <line id="Line_8" data-name="Line 8" class="cls-1" x2="31.279" transform="translate(2237.866 1964.168)"/>
+  </g>
+</svg>

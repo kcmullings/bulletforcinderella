@@ -1,0 +1,96 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: white;
+  color: black;
+  transition: all 0.3s;
+}
+
+body:hover {
+  background: black;
+  color: white;
+}
+.home-page {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 15em;
+  width: 100%;
+  font-size: 0.75em;
+  color: inherit;
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.circles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 12em;
+  width: 12em;
+}
+.circle {
+  border: 1px solid;
+  border-radius: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+  left: 50%;
+}
+.circle-outer {
+  height: 150%;
+  width: 150%;
+  top: 0;
+}
+.circle-inner {
+  height: 12em;
+  width: 12em;
+  top: 3em;
+}
+.headings {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.home-page h1 {
+  line-height: 2;
+  font-weight: 100;
+  font-size: 2em;
+  margin: 0;
+}
+.home-page h2 {
+  margin: 0;
+  font-size: 0.75em;
+  font-weight: 300;
+}
+.headings:before {
+  content: "";
+  height: 12em;
+  border-left: 1px solid;
+  position: absolute;
+  bottom: 7em;
+}
+.headings:after {
+  content: "";
+  height: 12em;
+  border-left: 1px solid;
+  position: absolute;
+  top: 7em;
+}
+.home-page p {
+  position: absolute;
+  left: calc(50% + 1em);
+  bottom: -18em;
+  margin: 0;
+  max-width: 1em;
+  line-height: 1;
+  font-weight: 300;
+  font-size: 0.65em;
+}
+@media (min-width: 40em) {
+  .home-page {
+    font-size: 1.5em;
+  }
+}
